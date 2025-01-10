@@ -1,0 +1,9 @@
+with open("sample.txt", "w") as file:
+    file.write("Line 1: This is a random text.\n")
+    file.write("Line 2: Another line of text.\n")
+    file.write("Line 3: Yet another random text.\n")
+
+with open("sample.txt", "r") as file:
+    contents = file.read()
+
+print(contents)
