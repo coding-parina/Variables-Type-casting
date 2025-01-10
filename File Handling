@@ -1,9 +1,11 @@
 with open("sample.txt", "w") as file:
-    file.write("Line 1: This is a random text.\n")
-    file.write("Line 2: Another line of text.\n")
-    file.write("Line 3: Yet another random text.\n")
+    file.write("Line 1: Hi! My name is Athai.\n")
+    file.write("Line 2: Most of the people pronounce and spell it wrong.\n")
+    file.write("Line 3: I have a lot of fascination about knowing and upgrading my world .\n")
+    file.write("But the environment around doesn't allow me do so.\n")
 
 with open("sample.txt", "r") as file:
     contents = file.read()
 
 print(contents)
+
